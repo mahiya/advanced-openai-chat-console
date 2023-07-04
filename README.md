@@ -2,7 +2,7 @@
 
 ## 使い方
 
-```openai_settings.json``` のプロパティ ```OPENAI_NAME``` に使用する Azure OpenAI Service のアカウント名を、プロパティ ```OPENAI_KEY``` に認証キーを、```OPENAI_MODEL``` に使用するモデルのデプロイメント名を指定します。
+[openai_settings.json](./openai_settings.json) のプロパティ ```OPENAI_NAME``` に使用する Azure OpenAI Service のアカウント名を、プロパティ ```OPENAI_KEY``` に認証キーを、```OPENAI_MODEL``` に使用するモデルのデプロイメント名を指定します。
 
 ```json
 {
@@ -26,7 +26,7 @@
 pip install -r requirements.txt
 ```
 
-以下の通りに ```localrun.sh``` を実行して、Web アプリケーションを起動します。
+以下の通りに [localrun.sh](./localrun.sh) を実行して、Web アプリケーションを起動します。
 ```bash
 ./localrun.sh
 ```
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Azure へのデプロイ方法
 
-以下の通りに ```deploy.sh``` を実行して、Web アプリケーションを Azure へデプロイします。第一引数にはデプロイ先のリソースグループ名を指定する必要があります。
+以下の通りに [deploy.sh](./deploy.sh) を実行して、Web アプリケーションを Azure へデプロイします。第一引数にはデプロイ先のリソースグループ名を指定する必要があります。
 ```bash
 ./deploy.sh {デプロイ先のリソースグループ名}
 # [例] ./deploy.sh rg-simple-aoi-console
