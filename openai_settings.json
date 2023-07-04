@@ -1,0 +1,12 @@
+{
+    "OPENAI_NAME": "",
+    "OPENAI_KEY": "",
+    "OPENAI_MODEL": "gpt-35-turbo-16k",
+    "OPENAI_API_VERSION": "2023-06-01-preview",
+    "OPENAI_SYSTEM_MESSAGE": "あなたは、人々が情報を見つけるのを助けるAIアシスタントです。指示に対して全て日本語で回答してください。",
+    "OPENAI_PROMPT_FORMAT": "以下の文章について、指定された指示通りの処理を行ってください。\n\n# 指定された指示\n{user_message}\n\n# 対象の文章\n{text}",
+    "OPENAI_TEXT_SPLIT_SIZE": 10000,
+    "OPENAI_MAX_TOKEN": 3000,
+    "OPENAI_TEMPERATURE": 0,
+    "OPENAI_CHAT_HISTORY_TAKE": 10
+}
